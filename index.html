@@ -2,48 +2,143 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Start</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body >
-    <main id="container" class=" bg-[#74CA9F] w-screen h-screen sm:w-screen sm:h-screen sm:bg-[#74CA9F] " >
-        <div id="primeraparte" class="flex justify-center items-center sm:flex sm:justify-center   sm:items-center ">
-            <div id="encabezado" class="sm:w-full sm:h-screen sm:flex sm:flex-col sm:gap-[10px]    ">
-                <div id="logo" class="sm:flex sm:items-center sm}:w-full sm:justify-center sm:p-[10px] ">
-                    <img class="sm:w-[4%] sm:mr-[8px] " src="/imagenes/logo.svg" alt="">
-                    <h2 class=" sm:text-white sm:text-[20px]">Start</h2>
+<body>
+    <main id="container" class="flex flex-col">
+        <div id="primeraparte" class="flex bg-[#74CA9F]">
+            <div id="encabezado" class="flex flex-col gap-[3rem] px-[10rem] py-[3rem]">
+                <nav id="logo" class="flex justify-between">
+                    <div class="flex gap-[10px]">
+                        <img class="" src="/imagenes/logo.svg" alt="" />
+                        <h2 class="sm:text-white sm:text-[30px]">Start</h2>
+                    </div>
+
                     <div class="" id="menu">
-                        <ul class="sm:ml-[300px] sm:gap-[10px] sm:flex">
-                            <li class="sm:text-white sm:text-[10px]">Home</li>
-                            <li class="sm:text-white sm:text-[10px]">Portafolio</li>
-                            <li class="sm:text-white sm:text-[10px]">Services</li>
-                            <li class="sm:text-white sm:text-[10px]">Contact</li>
+                        <ul class="sm:ml-[300px] sm:gap-[4rem] sm:flex">
+                            <li class="sm:text-white sm:text-[20px]">Home</li>
+                            <li class="sm:text-white sm:text-[20px]">Portafolio</li>
+                            <li class="sm:text-white sm:text-[20px]">Services</li>
+                            <li class="sm:text-white sm:text-[20px]">Contact</li>
                         </ul>
                     </div>
+                </nav>
+                <div class="flex w-full" id="contenidoEncabezado">
+                    <div class="text-white flex justify-center gap-[2rem] items-center" id="texto">
+                        <div class="flex flex-col w-[50rem] gap-[1.5rem]">
+                            <p class="text-[20px] font-bold">W E L C O M E</p>
+                            <h2 class="font-bold text-[2.5rem]">
+                                Lorem ipsum dolor sit amet consectetur
+                            </h2>
+                            <p class="text-justify w-[40rem]">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia
+                                aliquam quae non tenetur provident quas error repellendus
+                                facilis fuga deserunt illo, dignissimos voluptate aperiam,
+                                unde nesciunt consectetur quod rem quidem?
+                            </p>
+                            <div class="w-full">
+                                <button class="bg-white text-black w-[20%] p-[10px]">
+                                    <p class="text-[20px]">Explore</p>
+                                </button>
+                            </div>
+                        </div>
 
-
-                </div>
-                <div class="flex justify-center w-full items-center" id="contenidoEncabezado">
-                    <div class="text-white  p-[20px] w-[30%]" id="texto">
-                        <p class="text-[10px] font-bold">W E L C O M E</p>
-                        <h2 class="font-bold pt-[10px]">Lorem ipsum dolor sit amet consectetur </h2>
-                        <h3 class="text-[6px] pt-[10px] pb-[10px]">Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quia aliquam quae non tenetur provident quas error repellendus facilis fuga deserunt
-                            illo, dignissimos voluptate aperiam, unde nesciunt consectetur quod rem quidem?</h3>
-                        <button class="bg-white text-black w-[50%] p-[4px]">
-                            <p class="text-[10px]">Explore</p>
-                        </button>
-                    </div>
-                    <div class="flex justify-center w-[50%]">
-                        <img class="" src="imagenes/Group (2).svg">
+                        <div class="p-[0.5rem]">
+                            <img class="w-[50rem]" src="imagenes/Group (2).svg" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="w-full p-[5rem]" id="segunda parte">
+            <div class=" ">
+                <div class="flex flex-col justify-center items-center gap-[0.5rem]">
+                    <p class="text-[#74CA9F] text-[1.1rem] font-bold">
+                        P A R T N E R S
+                    </p>
+                    <h1 class="font-bold font-serif text-[3rem]">Lorem ipsum dolor</h1>
+                    <p class="text-[1.5rem] w-[30rem] text-center">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="flex justify-center items-center gap-[50px] p-[3rem]" id="imagenes">
+                    <div class="w-[10rem] ">
+                        <img src="/imagenes/gulugulu.svg" alt="" />
+                    </div>
+                    <div class="w-[10rem]">
+                        <img src="/imagenes/microso.svg" alt="" />
+                    </div>
+                    <div class="w-[10rem]">
+                        <img src="/imagenes/nose.svg" alt="" />
+                    </div>
+                    <div class="w-[10rem]">
+                        <img src="/imagenes/face.svg" alt="" />
+                    </div>
+                    <div class="w-[10rem]">
+                        <img src="/imagenes/spoty.svg" alt="" />
+                    </div>
+                </div>
+                <div class="flex items-center justify-center  ">
+                    <button class="bg-black w-[12rem] h-[3.5rem] rounded text-[1.5rem]  text-white">
+                        Learn More
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div class="flex px-[20rem] pb-[5rem] gap-[10rem]" id="contenido">
+            <div class="w-[40rem]">
+                <img src="/imagenes/Group.svg" alt="">
+            </div>
+            <div class="w-[30rem] flex flex-col justify-center i">
+                <h2 class="font-bold font-serif text-[3rem]">Lorem ipsum dolor, sit amet consectetur</h2>
+                <p class="text-gray-400 py-[1rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab nostrum
+                    animi dicta, aliquid tempora asperiores, nisi aut ducimus eius similique repudiandae dolore
+                    consequatur voluptatibus laboriosam facere maxime inventore ad commodi?</p>
+                <div class="flex  ">
+                    <button class="bg-black w-[12rem] h-[3.5rem] rounded text-[1.5rem]  text-white">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="flex items-center justify-center pb-[10rem] gap-[10rem]" id="terceraparte">
+            <div class="w-[30rem]">
+                <h2 class="font-bold font-serif text-[3rem]">Lorem ipsum dolor, sit amet consectetur</h2>
+                <p class="text-gray-400 py-[1rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab nostrum
+                    animi dicta, aliquid tempora asperiores, nisi aut ducimus eius similique repudiandae dolore
+                    consequatur voluptatibus laboriosam facere maxime inventore ad commodi?</p>
+                <div class="flex  ">
+                    <button class="bg-black w-[12rem] h-[3.5rem] rounded text-[1.5rem]  text-white">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+            <div><img src="/imagenes/sentado.svg" alt=""></div>
+        </div>
+        <div class="flex flex-col justify-center items-center text-center" id="cuartaparte">
+            <div class="flex flex-col justify-center items-center gap-[0.5rem]">
+                <p class="text-[#74CA9F] text-[1.1rem] font-bold">
+                    T E A M
+                </p>
+                <h1 class="font-bold font-serif text-[3rem]">Our Talents</h1>
+                <p class="text-[1.5rem] w-[30rem] text-center">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="flex ">
+                <div><img src="/imagenes/Group 14.svg" alt=""></div>
+                <div><img src="/imagenes/Group 15.svg" alt=""></div>
+                <div><img src="/imagenes/Group 15 (1).svg" alt=""></div>
+                <div><img src="/imagenes/sdad.svg" alt=""></div>
+            </div>
+        </div>
+
     </main>
 </body>
 
