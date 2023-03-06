@@ -10,17 +10,20 @@
 </head>
 
 <body>
-    <main id="container" class="flex flex-col">
-        <div id="primeraparte" class="flex bg-[#74CA9F]">
-            <div id="encabezado" class="flex flex-col gap-[3rem] px-[10rem] py-[3rem]">
-                <nav id="logo" class="flex justify-between">
+    <main id="container" class=" h-full w-full  flex flex-col">
+        <div id="primeraparte" class="  w-[65rem]  h-[110rem] sm:h-[40rem] sm:w-full flex bg-[#74CA9F]">
+            <div id="encabezado" class=" w-full -start px-[2rem] py-[3rem] flex flex-col gap-[3rem] sm:px-[10rem] sm:py-[3rem]">
+                <nav id="logo" class="  flex justify-between">
                     <div class="flex gap-[10px]">
                         <img class="" src="/imagenes/logo.svg" alt="" />
-                        <h2 class="sm:text-white sm:text-[30px]">Start</h2>
+                        <h2 class="text-white text-[40px] sm:text-[30px]">Start</h2>
+                    </div>
+                    <div class="sm:hidden w-[5rem]  block">
+                        <img class="w-[10rem]" src="/imagenes/list 1.svg" alt="">
                     </div>
 
-                    <div class="" id="menu">
-                        <ul class="sm:ml-[300px] sm:gap-[4rem] sm:flex">
+                    <div class="hidden sm:block" id="menu">
+                        <ul class=" sm:ml-[300px] sm:gap-[4rem] sm:flex">
                             <li class="sm:text-white sm:text-[20px]">Home</li>
                             <li class="sm:text-white sm:text-[20px]">Portafolio</li>
                             <li class="sm:text-white sm:text-[20px]">Services</li>
@@ -28,87 +31,86 @@
                         </ul>
                     </div>
                 </nav>
-                <div class="flex w-full" id="contenidoEncabezado">
-                    <div class="text-white flex justify-center gap-[2rem] items-center" id="texto">
-                        <div class="flex flex-col w-[50rem] gap-[1.5rem]">
-                            <p class="text-[20px] font-bold">W E L C O M E</p>
-                            <h2 class="font-bold text-[2.5rem]">
+                <div class="  flex flex-col sm:flex sm:w-full" id="contenidoEncabezado">
+                    <div class=" flex flex-col-reverse text-white sm:flex sm:flex-row justify-center sm:gap-[2rem] sm:items-center" id="texto">
+                        <div class="flex flex-col pt-[3rem] sm:w-[50rem] gap-[3rem] sm:gap-[1.5rem]">
+                            <p class=" text-[3rem] sm:text-[20px] font-bold">W E L C O M E</p>
+                            <h2 class="font-bold text-[4rem] sm:text-[2.5rem]">
                                 Lorem ipsum dolor sit amet consectetur
                             </h2>
-                            <p class="text-justify w-[40rem]">
+                            <p class="sm:text-justify sm:w-[40rem] text-[3rem] sm:text-[1rem] ">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia
                                 aliquam quae non tenetur provident quas error repellendus
-                                facilis fuga deserunt illo, dignissimos voluptate aperiam,
-                                unde nesciunt consectetur quod rem quidem?
+                                facilis fuga deserunt illo
                             </p>
                             <div class="w-full">
-                                <button class="bg-white text-black w-[20%] p-[10px]">
-                                    <p class="text-[20px]">Explore</p>
+                                <button class="bg-white text-black h-[7rem] w-[20rem] sm:w-[20%] sm:h-[3rem] sm:p-[10px]">
+                                    <p class=" text-[3rem] sm:text-[20px]">Explore</p>
                                 </button>
                             </div>
                         </div>
 
-                        <div class="p-[0.5rem]">
-                            <img class="w-[50rem]" src="imagenes/Group (2).svg" />
+                        <div class="sm:pt-[1rem]  sm:p-[0.5rem]">
+                            <img class=" h-[40rem] sm:h-[30rem] sm:h-full sm:w-[50rem]" src="imagenes/Group (2).svg" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="w-full p-[5rem]" id="segunda parte">
-            <div class=" ">
+        <div class=" sm:w-[60rem] w-[65rem] sm:w-full p-[5rem]" id="segunda parte">
+            <div class=" flex flex-col justify-center items-center">
                 <div class="flex flex-col justify-center items-center gap-[0.5rem]">
-                    <p class="text-[#74CA9F] text-[1.1rem] font-bold">
+                    <p class="text-[#74CA9F] text-[3rem] sm:text-[1.1rem] font-bold">
                         P A R T N E R S
                     </p>
-                    <h1 class="font-bold font-serif text-[3rem]">Lorem ipsum dolor</h1>
-                    <p class="text-[1.5rem] w-[30rem] text-center">
+                    <h1 class="font-bold font-serif text-[4rem] sm:text-[3rem]">Lorem ipsum dolor</h1>
+                    <p class="text-[4rem] sm:text-[1.5rem] sm:w-[30rem] text-center">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     </p>
                 </div>
-                <div class="flex justify-center items-center gap-[50px] p-[3rem]" id="imagenes">
-                    <div class="w-[10rem] ">
-                        <img src="/imagenes/gulugulu.svg" alt="" />
+                <div class="flex flex-col py-[8rem] sm:py-[3rem] sm:flex-row justify-center items-center gap-[7rem] sm:gap-[50px] p-[3rem]" id="imagenes">
+                    <div class=" sm:w-[10rem] ">
+                        <img class="w-[30rem] sm-w-[1rem]" src="/imagenes/gulugulu.svg" alt="" />
                     </div>
-                    <div class="w-[10rem]">
-                        <img src="/imagenes/microso.svg" alt="" />
+                    <div class="sm:w-[10rem]">
+                        <img class="w-[30rem] sm-w-[1rem]" src="/imagenes/microso.svg" alt="" />
                     </div>
-                    <div class="w-[10rem]">
-                        <img src="/imagenes/nose.svg" alt="" />
+                    <div class="sm:w-[10rem]">
+                        <img class="w-[30rem] sm-w-[1rem]" src="/imagenes/nose.svg" alt="" />
                     </div>
-                    <div class="w-[10rem]">
-                        <img src="/imagenes/face.svg" alt="" />
+                    <div class="sm:w-[10rem]">
+                        <img class="w-[30rem] sm-w-[1rem]" src="/imagenes/face.svg" alt="" />
                     </div>
-                    <div class="w-[10rem]">
-                        <img src="/imagenes/spoty.svg" alt="" />
+                    <div class="sm:w-[10rem]">
+                        <img class="w-[30rem] sm-w-[1rem]" src="/imagenes/spoty.svg" alt="" />
                     </div>
                 </div>
                 <div class="flex items-center justify-center  ">
-                    <button class="bg-black w-[12rem] h-[3.5rem] rounded text-[1.5rem]  text-white">
-                        Learn More
+                    <button class=" h-[10rem] w-[30rem] bg-black sm:w-[12rem] sm:h-[3.5rem] rounded text-[1.5rem]  text-white">
+                        <p class="text-[4.5rem] sm:text-[1rem]">Learn More</p> 
                     </button>
                 </div>
 
             </div>
         </div>
-        <div class="flex px-[20rem] pb-[5rem] gap-[10rem]" id="contenido">
-            <div class="w-[40rem]">
-                <img src="/imagenes/Group.svg" alt="">
+        <div class=" flex flex-col sm:flex-row px-[2rem]  sm:flex  sm:px-[20rem] pb-[5rem] sm:gap-[10rem]" id="contenido">
+            <div class=" flex  w-[90rem] pb-[4rem] sm:pb-[1rem]  sm:w-[40rem]">
+                <img class="w-[65rem]" src="/imagenes/Group.svg" alt="">
             </div>
-            <div class="w-[30rem] flex flex-col justify-center i">
-                <h2 class="font-bold font-serif text-[3rem]">Lorem ipsum dolor, sit amet consectetur</h2>
-                <p class="text-gray-400 py-[1rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab nostrum
+            <div class="sm:w-[30rem] sm:p-[1rem] p-[3rem] w-[60rem] sm:flex sm:flex-col sm:justify-center i">
+                <h2 class="font-bold pb-[3rem] sm:pb-[1rem] text-[5rem] font-serif sm:text-[3rem]">Lorem ipsum dolor, sit amet consectetur</h2>
+                <p class="text-gray-400 text-[3rem] sm:pb-[1rem] pb-[4rem] sm:text-[1rem] sm:py-[1rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab nostrum
                     animi dicta, aliquid tempora asperiores, nisi aut ducimus eius similique repudiandae dolore
                     consequatur voluptatibus laboriosam facere maxime inventore ad commodi?</p>
                 <div class="flex  ">
-                    <button class="bg-black w-[12rem] h-[3.5rem] rounded text-[1.5rem]  text-white">
-                        Learn More
+                    <button class=" h-[10rem] w-[30rem] bg-black sm:w-[12rem] sm:h-[3.5rem] rounded text-[1.5rem]  text-white">
+                        <p class="text-[4.5rem] sm:text-[1rem]">Learn More</p> 
                     </button>
                 </div>
             </div>
         </div>
-        <div class="flex items-center justify-center pb-[10rem] gap-[10rem]" id="terceraparte">
-            <div class="w-[30rem]">
+        <div class=" flex flex-col-reverse p-[3.5rem] sm:p-[1rem] sm:flex sm:items-center sm:justify-center sm:pb-[10rem] sm:gap-[10rem]" id="terceraparte">
+            <div class=" sm:w-[30rem]">
                 <h2 class="font-bold font-serif text-[3rem]">Lorem ipsum dolor, sit amet consectetur</h2>
                 <p class="text-gray-400 py-[1rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab nostrum
                     animi dicta, aliquid tempora asperiores, nisi aut ducimus eius similique repudiandae dolore
@@ -119,7 +121,7 @@
                     </button>
                 </div>
             </div>
-            <div><img src="/imagenes/sentado.svg" alt=""></div>
+            <div class="w-[100rem]  "><img class="w-[65rem]" src="/imagenes/sentado.svg" alt=""></div>
         </div>
         <div class="flex flex-col justify-center items-center text-center" id="cuartaparte">
             <div class="flex flex-col justify-center items-center gap-[0.5rem]">
@@ -131,12 +133,47 @@
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 </p>
             </div>
-            <div class="flex ">
-                <div><img src="/imagenes/Group 14.svg" alt=""></div>
-                <div><img src="/imagenes/Group 15.svg" alt=""></div>
-                <div><img src="/imagenes/Group 15 (1).svg" alt=""></div>
-                <div><img src="/imagenes/sdad.svg" alt=""></div>
+            <div class="flex justify-center gap-[3rem] p-[5rem] ">
+                <div class="shadow-black-500/50 border-[2px]  text-start border-solid"><img
+                        class="px-[1.5rem] pb-[1rem] pt-[0.5rem]" src="/imagenes/Group 14.svg" alt="">
+                    <div class="pl-[1rem] pb-[1rem]">
+                        <h2 class="font-bold mb-[1rem]   ">Peg Leggue</h2>
+                        <p class="text-[0.8rem] text-slate-500">CEO</p>
+                    </div>
+                </div>
+                <div class="shadow-black-500/50 border-[2px]  text-start border-solid "><img
+                        class="px-[1.5rem] pb-[1rem] pt-[0.5rem]" src="/imagenes/Group 15.svg" alt="">
+                    <div class="pl-[1rem] pb-[1rem]">
+                        <h2 class="font-bold mb-[1rem]   ">Richard Guerra</h2>
+                        <p class="text-[0.8rem] text-slate-500">CTO</p>
+                    </div>
+
+                </div>
+                <div class="shadow-black-500/50 border-[2px]  text-start border-solid"><img
+                        class="px-[1.5rem] pb-[1rem] pt-[0.5rem]" src="/imagenes/Group 15 (1).svg" alt="">
+                    <div class="pl-[1rem] pb-[1rem]">
+                        <h2 class="font-bold mb-[1rem]   ">Alexandra Stolz</h2>
+                        <p class="text-[0.8rem] text-slate-500">Designer</p>
+                    </div>
+                </div>
+                <div class="shadow-black-500/50 border-[2px]  text-start border-solid"><img
+                        class="px-[1.5rem] pb-[1rem] pt-[0.5rem]" src="/imagenes/sdad.svg" alt="">
+                    <div class="pl-[1rem] pb-[1rem]">
+                        <h2 class="font-bold mb-[1rem]   ">Janet Bray</h2>
+                        <p class="text-[0.8rem] text-slate-500">Deplover</p>
+                    </div>
+                </div>
+
             </div>
+            <div class="flex pb-[5rem] ">
+                <button class="bg-black w-[12rem] h-[3.5rem] rounded text-[1.5rem]  text-white">
+                    View Team
+                </button>
+            </div>
+        </div>
+
+        <div id="footer" class="w-full p-[4rem] bg-[#74CA9F] flex justify-center items-center " >
+            <img src="/imagenes/Frame 31.svg" alt="">
         </div>
 
     </main>
